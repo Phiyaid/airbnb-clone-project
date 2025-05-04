@@ -46,7 +46,7 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic. Database Administrator: Manages database design, indexing, and optimizations. DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services. QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 ---
 
-##  DATABASE DESIGN 
+##  Database Design 
 This section outlines the core entities in the system and their relationships to help visualize how the database is structured.
 
 🧑 Users Represents the people using the platform (guests or hosts).
