@@ -140,6 +140,21 @@ status: Payment status (e.g., "pending", "completed").
 payment_method: How the user paid (e.g., card, PayPal).
 
 📌 Relationships:
-
 A payment is linked to one booking. 
+
 ---
+
+## Feature Breakdown
+This section outlines the core features of the Airbnb Clone project and how they contribute to the overall functionality of the platform.
+
+👤 User Management Allows users to register, log in, and manage their profiles. Hosts can list properties, while guests can browse and book properties. Secure authentication and role-based access control are implemented to ensure user data integrity.
+
+🏘️ Property Management Enables hosts to create, update, and delete property listings. Listings include key details such as title, description, pricing, location, and photos, helping guests make informed booking decisions.
+
+📅 Booking System Facilitates property reservations by allowing users to select available dates and confirm bookings. It ensures date availability, prevents double bookings, and links each reservation to both the user and the property.
+
+💳 Payment Processing Handles the secure processing of booking payments. Integrates with payment gateways to charge users based on the property price and booking duration, while tracking the status of each transaction.
+
+📝 Review System Lets users leave feedback and ratings on properties they’ve booked. This helps maintain trust in the platform by highlighting user experiences and encouraging hosts to maintain high-quality listings.
+
+📈 Data Optimization Incorporates pagination, filtering, and search functionalities to improve data accessibility and platform performance. This ensures users can efficiently find properties that match their preferences.
