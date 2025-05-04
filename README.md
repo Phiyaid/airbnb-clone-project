@@ -175,3 +175,19 @@ Security is a critical component of the Airbnb Clone project to ensure user trus
 
 Security is essential at every level of this project to maintain platform trust, protect users and hosts, and ensure safe, smooth operation.
 ---
+
+# CI/CD Pipeline 
+What is CI/CD?
+ CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a set of practices that automate the process of testing, building, and deploying code changes. Whenever a developer pushes code to the repository, the CI/CD pipeline ensures that the code is automatically tested and, if it passes all checks, deployed to the production or staging environment.
+
+Why CI/CD is Important CI/CD helps maintain code quality, reduce manual errors, and speed up the release process. It ensures that new features, bug fixes, and updates are delivered reliably and efficiently. This is especially important for projects like this Airbnb Clone, where maintaining functionality, user experience, and uptime is crucial.
+
+Tools Used GitHub Actions – For automating workflows such as running tests and deploying code on every push or pull request.
+
+Docker – For creating consistent and portable development and production environments.
+
+Heroku / PythonAnywhere / AWS / Vercel – For deployment and hosting of the backend API and frontend (if applicable).
+
+pytest / Django Test Suite – For running unit and integration tests as part of the pipeline.
+
+CI/CD ensures that each code change is automatically verified and safely deployed, supporting an agile and scalable development process.
