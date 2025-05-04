@@ -158,3 +158,20 @@ This section outlines the core features of the Airbnb Clone project and how they
 📝 Review System Lets users leave feedback and ratings on properties they’ve booked. This helps maintain trust in the platform by highlighting user experiences and encouraging hosts to maintain high-quality listings.
 
 📈 Data Optimization Incorporates pagination, filtering, and search functionalities to improve data accessibility and platform performance. This ensures users can efficiently find properties that match their preferences.
+
+---
+## API Security
+Security is a critical component of the Airbnb Clone project to ensure user trust, data protection, and safe transactions. The following key measures are implemented to secure the backend APIs:
+
+🔑 Authentication Authentication ensures that only registered users can access protected endpoints. This project uses secure authentication methods (e.g., token-based authentication) to verify user identity during login and API access. It helps protect user accounts from unauthorized access.
+
+🛂 Authorization Authorization controls what authenticated users are allowed to do. For example, only hosts can manage properties, and only the property owner can edit or delete a listing. This ensures that users can only perform actions they have permission for, protecting data integrity.
+
+🚫 Rate Limiting Rate limiting restricts the number of requests a user or IP can make in a given timeframe. This helps prevent abuse such as brute-force login attempts or denial-of-service (DoS) attacks, enhancing the reliability and stability of the platform.
+
+🔒 Secure Payments Payment endpoints are secured to protect sensitive financial data. This includes encrypting communication with HTTPS and validating payment requests to prevent fraud and unauthorized charges.
+
+🧑‍💻 Data Protection User data such as emails, passwords, and payment details are securely stored using encryption and hashing (e.g., bcrypt for passwords). This prevents data leaks and protects users in case of a breach.
+
+Security is essential at every level of this project to maintain platform trust, protect users and hosts, and ensure safe, smooth operation.
+---
